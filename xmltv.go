@@ -1,3 +1,4 @@
+// Package xmltv provides structures for parsing XMLTV data.
 package xmltv
 
 import (
