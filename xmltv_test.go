@@ -42,6 +42,7 @@ func TestDecode(t *testing.T) {
 
 	loc := time.FixedZone("", -6*60*60)
 	pr := Programme{
+		Id:         "someId",
 		ChannelId:  "I10436.labs.zap2it.com",
 		Start:      Time{time.Date(2008, 07, 15, 0, 30, 0, 0, loc)},
 		Stop:       Time{time.Date(2008, 07, 15, 1, 0, 0, 0, loc)},

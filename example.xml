@@ -22,7 +22,7 @@
     <display-name>CBS Affiliate</display-name>
     <icon src="file://C:\Perl\site/share/xmltv/icons/KTVT.gif" />
   </channel>
-  <programme start="20080715003000 -0600" stop="20080715010000 -0600" channel="I10436.labs.zap2it.com">
+  <programme id="someId" start="20080715003000 -0600" stop="20080715010000 -0600" channel="I10436.labs.zap2it.com">
     <title lang="en">NOW on PBS</title>
     <desc lang="en">Jordan's Queen Rania has made job creation a priority to help curb the staggering unemployment rates among youths in the Middle East.</desc>
     <date>20080711</date>

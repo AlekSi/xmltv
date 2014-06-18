@@ -39,6 +39,7 @@ type Icon struct {
 }
 
 type Programme struct {
+	Id         string   `xml:"id,attr"` // not defined by standard, but often present
 	ChannelId  string   `xml:"channel,attr"`
 	Start      Time     `xml:"start,attr"`
 	Stop       Time     `xml:"stop,attr"`
